@@ -1,13 +1,3 @@
-# MiniParseArg
-MiniParseArg++
-
-> This is a little library to parse the program arguments in C++
-
-___
-Example:
--
-```cpp
-
 #include "MiniParseArg.hpp"
 
 int main(int ac, const char **av)
@@ -58,4 +48,3 @@ int main(int ac, const char **av)
     std::cout << "The magic number is " << userFlags.magicNumber << std::endl;
     return 0;
 }
-```
